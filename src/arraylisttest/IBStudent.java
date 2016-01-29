@@ -1,7 +1,12 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * IBStudent class for the ArrayList project
+ * Copyright (c) 2016 Alex Balgavy <a.balgavy@gmail.com>
+ * 
+ * Stores data about the student. Contains accessors and mutators for
+ * the student's first name and last name, and an array of IBExam
+ * instances for the student (the exams they took). Also contains methods
+ * for computing the highest score, the sum of all of the scores, and the 
+ * number of fives the student received.
  */
 package arraylisttest;
 import java.util.*;

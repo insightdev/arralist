@@ -1,7 +1,11 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Client program for the ArrayList project
+ * Copyright (c) 2016 Alex Balgavy <a.balgavy@gmail.com>
+ * 
+ * Allows user to input a student's first and last name and
+ * the student's subjects and scores (in that order), followed by the keyword
+ * 'end'. Returns calculated data: the number of fives the student
+ * received, their average grade, and their highest grade.
  */
 package arraylisttest;
 
@@ -12,10 +16,7 @@ import java.util.*;
  * @author alex
  */
 public class ArrayListTest {
-
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         
         // Variable declarations

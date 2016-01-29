@@ -1,7 +1,9 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * IBExam class for the ArrayList project
+ * Copyright (c) 2016 Alex Balgavy <a.balgavy@gmail.com>
+ * 
+ * Stores data about a single exam the student took (one instance represents
+ * one exam). Contains accessors and mutators for the exam subject and score.
  */
 package arraylisttest;
 
