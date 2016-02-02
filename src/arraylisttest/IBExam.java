@@ -41,4 +41,38 @@ public class IBExam {
         this.myScore = score;
     }
     
+    
+    // OTHER METHODS
+    public boolean equals(IBExam exam) {
+        if (exam == null) {
+            return false;
+        }
+        if (exam.mySubject == this.mySubject) {
+            if (exam.myScore == this.myScore) {
+                return true;
+            }
+            else {
+                return false;
+            }
+        }
+        else {
+            return false;
+        }
+    }
+    
+    public String toString(IBExam exam) {
+        return exam.mySubject + String.valueOf(exam.myScore);
+    }
+    
+    public int compareTo(IBExam exam) {
+        if (exam.myScore == this.myScore) {
+            return 0;
+        }
+        else if (exam.myScore > this.myScore) {
+            return -1;
+        }
+        else {
+            return 1;
+        }
+    }
 }
